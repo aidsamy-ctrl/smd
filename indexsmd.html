@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices GitHub</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        header {
+            background-color: #24292e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 25px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px #ccc;
+        }
+
+        h2 {
+            color: #24292e;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .important {
+            color: red;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Exercices GitHub</h1>
+        <p>Apprendre à partager son code et travailler en équipe</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>1. Exercice GitHub / Push</h2>
+            <ol>
+                <li>Créer un compte GitHub.</li>
+                <li>Configurer sa clé SSH.</li>
+                <li>Créer un dépôt public.</li>
+                <li>Associer son dépôt local au dépôt distant.</li>
+                <li>Envoyer sa branche master avec push.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>2. Exercice GitHub / Clone</h2>
+            <ol>
+                <li>Choisir un collègue de travail.</li>
+                <li>Cloner son dépôt distant.</li>
+                <li>Ajouter le collègue comme collaborateur.</li>
+                <li>Ajouter son nom à la page des contacts et faire un commit.</li>
+                <li>Envoyer les modifications avec push.</li>
+                <li>Récupérer les modifications avec pull.</li>
+            </ol>
+            <p class="important">
+                Attention : les identifiants du dernier commit doivent permettre
+                d'identifier son auteur.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Exercice GitHub / Fetch</h2>
+            <h3>Sur son dépôt local</h3>
+            <ol>
+                <li>Ajouter un commit sur la branche master.</li>
+                <li>Envoyer les modifications avec push.</li>
+            </ol>
+
+            <h3>Sur le clone du dépôt du partenaire</h3>
+            <ol>
+                <li>Créer une branche pour contribuer.</li>
+                <li>Créer deux commits sur cette branche.</li>
+                <li>Récupérer les modifications de la branche master distante.</li>
+                <li>Vérifier les commits à intégrer.</li>
+                <li>Fusionner la branche contenant sa contribution.</li>
+                <li>Envoyer le résultat avec push.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>4. Commandes Git utiles</h2>
+            <ul>
+                <li><code>git clone URL</code> : cloner un dépôt.</li>
+                <li><code>git add .</code> : ajouter les fichiers.</li>
+                <li><code>git commit -m "message"</code> : créer un commit.</li>
+                <li><code>git push</code> : envoyer les modifications.</li>
+                <li><code>git pull</code> : récupérer les modifications.</li>
+                <li><code>git fetch</code> : récupérer les changements distants.</li>
+                <li><code>git merge</code> : fusionner une branche.</li>
+                <li><code>git log --oneline --all --graph</code> : afficher l'historique.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Exercices GitHub - Travail collaboratif</p>
+    </footer>
+
+</body>
+</html>
