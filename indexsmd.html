@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -34,6 +33,20 @@
             margin-bottom: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 6px #ccc;
+            transition: transform 0.2s ease;
+        }
+
+        section:hover {
+            transform: translateY(-3px);
+        }
+
+        code {
+            background-color: #eef1f5;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #d63384;
+            font-weight: bold;
         }
 
         h2 {
@@ -110,19 +123,30 @@
                 <li>Fusionner la branche contenant sa contribution.</li>
                 <li>Envoyer le résultat avec push.</li>
             </ol>
+            <p>Note : pensez à créer une branche dédiée avant de faire vos commits.</p>
         </section>
 
         <section>
             <h2>4. Commandes Git utiles</h2>
             <ul>
+                <li><code>git status</code> : vérifier l'état des fichiers modifiés.</li>
                 <li><code>git clone URL</code> : cloner un dépôt.</li>
                 <li><code>git add .</code> : ajouter les fichiers.</li>
                 <li><code>git commit -m "message"</code> : créer un commit.</li>
+                <li><code>git branch nom-branche</code> : créer une nouvelle branche.</li>
+                <li><code>git switch nom-branche</code> : changer de branche.</li>
                 <li><code>git push</code> : envoyer les modifications.</li>
                 <li><code>git pull</code> : récupérer les modifications.</li>
                 <li><code>git fetch</code> : récupérer les changements distants.</li>
                 <li><code>git merge</code> : fusionner une branche.</li>
                 <li><code>git log --oneline --all --graph</code> : afficher l'historique.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Contacts</h2>
+            <ul>
+                <li><strong>Moi :</strong> [Ton Prénom et Nom]</li>
             </ul>
         </section>
 
